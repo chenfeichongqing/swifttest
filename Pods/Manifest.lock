@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (4.0.1)
+  - MJRefresh (3.1.12)
+  - OpenShare (0.0.1)
+  - Realm (2.0.2):
+    - Realm/Headers (= 2.0.2)
+  - Realm/Headers (2.0.2)
+  - RealmSwift (2.0.2):
+    - Realm (= 2.0.2)
+  - RongCloudIMKit (2.7.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - MJRefresh
+  - OpenShare (~> 0.0)
+  - RealmSwift
+  - RongCloudIMKit (= 2.7.3)
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  OpenShare: a560580dbb729d5c0c3cc1ee84cd6aa4a07e94c6
+  Realm: 0f5a194af0b7e6158b83db41b4ee1a00be7ddf1a
+  RealmSwift: 0eb5070d851cba7c66e841ca756d83609dc78bc8
+  RongCloudIMKit: 0b93700b17d224c7c213815b8a23a9c356fe20e2
+
+PODFILE CHECKSUM: 06ecd8aaf88f029da8a52422078123d5332d29f0
+
+COCOAPODS: 1.0.1

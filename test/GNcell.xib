@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="mycell" id="gTV-IL-0wX" customClass="GNcell" customModule="test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="110" height="116"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="110" height="116"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="vg9-0i-MZt">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="64" id="FSW-kC-5oA"/>
+                            <constraint firstAttribute="height" constant="64" id="xk1-WI-axY"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下发指令" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAs-UH-8rj">
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="QAs-UH-8rj" firstAttribute="top" secondItem="vg9-0i-MZt" secondAttribute="bottom" constant="10" id="Fzj-gA-HQh"/>
+                <constraint firstItem="vg9-0i-MZt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="14" id="I7z-Ey-mv0"/>
+                <constraint firstItem="vg9-0i-MZt" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="YvV-El-NSw"/>
+                <constraint firstItem="QAs-UH-8rj" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="hZi-42-vlP"/>
+            </constraints>
+            <size key="customSize" width="194" height="250"/>
+            <connections>
+                <outlet property="imageview" destination="vg9-0i-MZt" id="HGm-av-gT7"/>
+                <outlet property="name" destination="QAs-UH-8rj" id="FJX-Ah-Aj5"/>
+            </connections>
+            <point key="canvasLocation" x="18" y="-241"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="2" width="112" height="112"/>
+    </resources>
+</document>
